@@ -5,21 +5,20 @@ import pytania from '../../Data/Questions.json'
 import Styles from './Quiz.module.css'
 
 // 📁 Importy przycisków odpowiedzi
-import Btn11 from '../../Assets/Buttons/1.1.png'
-import Btn12 from '../../Assets/Buttons/1.2.png'
-import Btn13 from '../../Assets/Buttons/1.3.png'
-import Btn21 from '../../Assets/Buttons/2.1.png'
-import Btn22 from '../../Assets/Buttons/2.2.png'
-import Btn23 from '../../Assets/Buttons/2.3.png'
+import Btn11 from '../../Assets/Buttons/Btn11.png'
+import Btn12 from '../../Assets/Buttons/Btn12.png'
+import Btn13 from '../../Assets/Buttons/Btn13.png'
+import Btn21 from '../../Assets/Buttons/Btn21.png'
+import Btn22 from '../../Assets/Buttons/Btn22.png'
+import Btn23 from '../../Assets/Buttons/Btn23.png'
 
-// Mapa nazw plików do importów
 const obrazki = {
-  '1.1': Btn11,
-  '1.2': Btn12,
-  '1.3': Btn13,
-  '2.1': Btn21,
-  '2.2': Btn22,
-  '2.3': Btn23,
+  'Btn11': Btn11,
+  'Btn12': Btn12,
+  'Btn13': Btn13,
+  'Btn21': Btn21,
+  'Btn22': Btn22,
+  'Btn23': Btn23,
 }
 
 function Quiz() {
