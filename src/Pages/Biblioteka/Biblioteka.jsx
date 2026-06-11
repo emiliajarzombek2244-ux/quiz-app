@@ -18,14 +18,14 @@ import Karta2 from '../../Assets/Images/BI2.png'
 import Karta3 from '../../Assets/Images/BI3.png'
 import Karta4 from '../../Assets/Images/BI4.png'
 
-// 📁 Przycisk powrotu
+// 📁 Przyciski
 import BtnInne from '../../Assets/Buttons/Innebramy.png'
+import Strzalka from '../../Assets/Buttons/Strzalka.png'
 
-// Poprawiona kolejność kart
 const bramy = [
-  { btn: Btn1, karta: Karta2 },
+  { btn: Btn1, karta: Karta1 },
   { btn: Btn2, karta: Karta3 },
-  { btn: Btn3, karta: Karta1 },
+  { btn: Btn3, karta: Karta2 },
   { btn: Btn4, karta: Karta4 },
 ]
 
@@ -35,8 +35,14 @@ function Biblioteka() {
 
   return (
     <div className={Styles.container}>
+
       {aktywna === null ? (
         <>
+          {/* Strzałka powrotu do menu */}
+          <button className={Styles.btnWyjscie} onClick={() => navigate('/')}>
+            <img src={Strzalka} alt="Powrót" className={Styles.strzalkaImg} />
+          </button>
+
           {/* Tło z tytułem */}
           <img src={TloBiblioteka} alt="Biblioteka" className={Styles.tlo} />
 
@@ -66,6 +72,7 @@ function Biblioteka() {
           </button>
         </div>
       )}
+
     </div>
   )
 }

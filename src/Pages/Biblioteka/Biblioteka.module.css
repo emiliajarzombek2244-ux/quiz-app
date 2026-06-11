@@ -6,6 +6,25 @@
   min-height: 100vh;
   background: #ffffff;
   box-sizing: border-box;
+  position: relative;
+}
+
+/* Strzałka powrotu — prawy górny róg */
+.btnWyjscie {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  width: 60px;
+  z-index: 10;
+}
+
+.strzalkaImg {
+  width: 100%;
+  display: block;
 }
 
 /* Tło z tytułem */
