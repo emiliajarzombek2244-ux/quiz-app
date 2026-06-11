@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import Styles from './Biblioteka.module.css'
 
 // 📁 Tło z tytułem
-import TloBiblioteka from '../../Assets/Images/BibliotekaBram.png'
+import TloBiblioteka from '../../Assets/Images/Bibliotekabram.png'
 
 // 📁 Przyciski kolaży w siatce
 import Btn1 from '../../Assets/Buttons/Biblioteka1.png'
