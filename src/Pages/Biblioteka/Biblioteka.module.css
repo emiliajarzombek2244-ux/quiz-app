@@ -1,0 +1,62 @@
+/* Layout Biblioteki */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Tło z tytułem */
+.tlo {
+  width: 100%;
+  display: block;
+}
+
+/* Siatka 2x2 */
+.siatka {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Przycisk kolaż */
+.btnBrama {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.btnImg {
+  width: 100%;
+  display: block;
+}
+
+/* Widok szczegółowy */
+.szczegol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.karta {
+  width: 100%;
+  display: block;
+}
+
+/* Przycisk Inne bramy */
+.btnInne {
+  width: 80%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 1rem 0;
+}

@@ -1,0 +1,67 @@
+/* Layout strony głównej */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  min-height: 100vh;
+  background: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Tytuł "Cieszyńskie bramy" */
+.tytul {
+  align-self: flex-start;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.tytulDuzy {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+  color: #3E3838;
+}
+
+.tytulMaly {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-family: 'Fraunces', serif;
+  color: #3E3838;
+}
+/* Duży kafelek QUIZ */
+.btnQuiz {
+  width: 110%;
+  max-width: 1600px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+/* Dolny rząd — dwa przyciski obok siebie */
+.dolneRzad {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.btnMaly {
+  flex: 1;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Grafika wypełnia cały przycisk */
+.imgPelna {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}

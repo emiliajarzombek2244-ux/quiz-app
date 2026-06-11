@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "pytanie": "W jaki sposób",
+    "pytaniePogrubione": "działasz?",
+    "odpowiedzi": ["1.1", "1.2", "1.3"]
+  },
+  {
+    "id": 2,
+    "pytanie": "Co najlepiej Cię",
+    "pytaniePogrubione": "opisuje?",
+    "odpowiedzi": ["2.1", "2.2", "2.3"]
+  }
+]

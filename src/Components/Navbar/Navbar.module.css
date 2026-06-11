@@ -1,0 +1,20 @@
+/* Style Navbara — uzupełnij gdy podmienisz grafiki */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  height: 48px;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.links a {
+  text-decoration: none;
+}
